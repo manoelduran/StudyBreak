@@ -6,6 +6,7 @@ import { Profile } from '../components/Profile/Profile';
 import styles from '../styles/Home.module.scss';
 import Head from 'next/head';
 import { ChallengeBox } from '../components/ChallengeBox/ChallengeBox';
+import { CountdownContextProvidder } from '../contexts/CountdownContext';
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,16 +14,18 @@ export default function Home() {
         <title> Home | Move.It</title>
       </Head>
       <ExperienceBar />
-      <section>
-        <div className={styles.leftContainer}>
-          <Profile />
-          <CompletedChallenges />
-          <Countdown />
-        </div>
-        <div>
-          <ChallengeBox />
-        </div>
-      </section>
+      <CountdownContextProvidder>
+        <section>
+          <div className={styles.leftContainer}>
+            <Profile />
+            <CompletedChallenges />
+            <Countdown />
+          </div>
+          <div>
+            <ChallengeBox />
+          </div>
+        </section>
+      </CountdownContextProvidder>
     </div>
   )
 }
