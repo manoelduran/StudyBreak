@@ -44,7 +44,7 @@ export function ChallengeBox() {
         <div className={styles.challengeNotActive}>
           <strong>Comece a jogar para poder receber seus desafios!</strong>
           <p>
-            <img src="icons/levelup.png" width="100px" height="100px" alt="Level up" />
+            <Image src="/icons/levelup.png" width="100px" height="100px" alt="Level up" />
             Complete seus desafios para avançar de level!
           </p>
         </div>
