@@ -1,12 +1,13 @@
 import styles from '../Profile/Profile.module.scss';
 import { FcUp } from "react-icons/fc";
 import { useContext } from 'react';
+import Image from 'next/image';
 import { ChallengesContext } from '../../contexts/ChallengesContext';
 export function Profile() {
   const { level } = useContext(ChallengesContext)
   return (
     <div className={styles.profileContainer}>
-      <img src="https://github.com/manoelduran.png" alt="Manoel Duran" />
+      <Image src="/manoelduran.jpeg" width="150px" height="150px"  alt="Manoel Duran" />
       <div>
         <strong>
           Manoel Duran

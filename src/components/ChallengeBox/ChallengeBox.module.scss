@@ -16,10 +16,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
   strong{
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.4;
+    margin-bottom: 1rem;
   }
   p{
     display: flex;
@@ -27,11 +29,9 @@
     align-items: center;
     line-height: 1.4;
     max-width: 70%;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
-  img{
-    margin-bottom: 1rem;
-  }
+  
 }
 
 .challengeActive{
