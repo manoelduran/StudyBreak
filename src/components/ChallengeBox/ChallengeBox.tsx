@@ -19,7 +19,7 @@ export function ChallengeBox() {
         <div className={styles.challengeActive}>
           <header>Receba {activeChallenge.amount} de xp</header>
           <main>
-            <img src="/icons/workout.png" width="100px" height="100px" alt="" />
+            <img src={`/icons/${activeChallenge.type}.png`} width="100px" height="100px" alt="" />
             <strong>Novo desafio:</strong>
             <p>{activeChallenge.description}</p>
           </main>

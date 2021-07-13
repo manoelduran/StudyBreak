@@ -1,62 +1,67 @@
 [
   {
-    "type": "body",
-    "description": "Estique um de seus braços com a palma da mão virada para frente e puxe os dedos para cima por 10 segundos por mão.",
+    "type": "relax",
+    "description": "Estique um de seus braços com a palma da mão virada para frente por 10 segundos por mão.",
     "amount": 80
   },
   {
     "type": "body",
-    "description": "Levante e faça o treino a seguir: 3 séries de 10 flexões e 3 séries de 10 abdominais.",
+    "description": "Levante e faça 15 flexões.",
     "amount": 60
   },
   {
     "type": "body",
-    "description": "Puxe seu pescoço com a ajuda da mão para a direita e para a esquerda, permanecendo na posição por alguns segundos.",
+    "description": "Levante e faça 15 abdominais.",
     "amount": 70
   },
   {
     "type": "body",
-    "description": "Com as duas mãos na parte de trás da cabeça, leve-a para baixo, alongando a parte de trás da região.",
+    "description": "Levante e faça 3 minutos de esteira na velocidade 7.",
     "amount": 60
   },
   {
-    "type": "body",
-    "description": "Cruze as pernas e desça com as mãos esticadas em direção ao chão. Repita o movimento com a outra perna na frente.",
+    "type": "relax",
+    "description": "Levante e desça suas mãos até tocar no chão e deixe alongar seu corpo por 20 segundos.",
     "amount": 100
   },
   {
-    "type": "body",
-    "description": "Sentado, abra as pernas e tente encostar as palmas das mãos no chão, repita 3 vezes por 5 segundos.",
+    "type": "relax",
+    "description": "Levante e jogue seu corpo para tras segurando na cintura por 20 segundos.",
     "amount": 80
   },
   {
-    "type": "body",
+    "type": "relax",
     "description": "Puxe o joelho de encontro ao peito e segure, troque de perna após 10 segundos.",
     "amount": 50
   },
   {
     "type": "body",
-    "description": "Sentado, cruze uma perna e incline seu tronco à frente, troque de perna após 10 segundos.",
+    "description": "Levante e faça 30 polichinelos.",
     "amount": 80
   },
   {
-    "type": "eye",
+    "type": "relax",
     "description": "Sentado, feche os olhos e cubra-os com as palmas da mão durante 2 minutos, depois abra normalmente.",
     "amount": 90
   },
   {
-    "type": "eye",
+    "type": "relax",
     "description": "Em algum ambiente aberto, olhe o mais longe que puder em quatro direções por 3s, mexa apenas os olhos. Repita 3 vezes.",
     "amount": 140
   },
   {
-    "type": "eye",
+    "type": "relax",
     "description": "Usando os polegares, massage a área abaixo das sobrancelhas em movimentos circulares por 15 segundos.",
     "amount": 70
   },
   {
-    "type": "body",
+    "type": "relax",
     "description": "Em pé, gire a cintura o máximo que puder para a esquerda, segure por cinco segundos. Repita para a direita.",
+    "amount": 90
+  },
+  {
+    "type": "body",
+    "description": "Levante e faça 5 barras.",
     "amount": 90
   }
 ]
