@@ -20,7 +20,7 @@ export default function Home(props: HomeProps) {
     <ChallengesContextProvider level={props.level} currentExperience={props.currentExperience} challengesCompleted={props.challengesCompleted} >
       <div className={styles.container}>
         <Head>
-          <title> Home | Move.It</title>
+          <title> Home | StudyBreak</title>
         </Head>
         <ExperienceBar />
         <CountdownContextProvidder>

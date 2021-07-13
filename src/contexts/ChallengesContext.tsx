@@ -20,6 +20,7 @@ interface ChallengesContextData {
   startNewChallenge: () => void;
   resetChallenge: () => void;
   completeChallenge: () => void;
+  closeLevelUpModal: () => void;
 }
 
 interface ChallengesContextProviderProps {
@@ -53,6 +54,9 @@ export function ChallengesContextProvider({ children, ...rest }: ChallengesConte
     setIsLevelUpModalOpen(true);
     new Audio('/levelup.mp3').play();
   }
+  function closeLevelUpModal() {
+    setIsLevelUpModalOpen(false);
+  }
   function startNewChallenge() {
     const randomChallengeIndex = Math.floor(Math.random() * challengs.length);
     const challenge = challengs[randomChallengeIndex];
@@ -84,7 +88,7 @@ export function ChallengesContextProvider({ children, ...rest }: ChallengesConte
     setChallengesCompleted(challengesCompleted + 1);
   }
   return (
-    <ChallengesContext.Provider value={{ level, levelUp, currentExperience, challengesCompleted, startNewChallenge, activeChallenge, resetChallenge, experienceTonNextLevel, completeChallenge }}>
+    <ChallengesContext.Provider value={{ level, levelUp, currentExperience, challengesCompleted, startNewChallenge, activeChallenge, resetChallenge, experienceTonNextLevel, completeChallenge, closeLevelUpModal }}>
       {children}
 
       {isLevelUpModalOpen && <LevelUpModal />}
